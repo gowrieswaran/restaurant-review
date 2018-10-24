@@ -1,0 +1,58 @@
+@media screen and (min-width: 600px) {
+
+/* ==================Header font size for medium devices==================== */
+nav h1 a{
+  font-size: 14pt;
+  }
+
+/* ====================== Footer font size ====================== */
+#footer {
+    font-size: 12pt;
+}
+
+
+/* ====================== Restaurant Listing & Details====================== */
+#restaurants-list li {
+    width: calc(50% - 26px);
+    max-width: 350px;
+    padding: 25px;
+}
+
+#inside #map-container {
+  position: fixed;
+  width: calc(100vw-350px);
+  height: calc(100vh - 100px);
+  max-height:none;
+  margin: 0;
+  left: 350px;
+  top: 100px;
+}
+#restaurant-img {
+	width: 80%;
+}
+#restaurant-container{
+  margin-top: 100px;
+  padding: 15px 15px 0px;
+  width: 350px;
+  box-sizing: border-box;
+}
+#reviews-container {
+  padding: 15px 15px 5px;
+  width: 350px;
+  box-sizing: border-box;
+}
+/* ====================== Footer====================== */
+.inside #footer {
+  padding: 20px;
+  width: 350px;
+  box-sizing: border-box;
+}
+
+}
+
+/* ====================== Footer====================== */
+@media screen and (min-width:1024px){
+  #restaurant-img {
+	width: 70%;
+}
+}
