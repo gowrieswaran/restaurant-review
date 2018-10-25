@@ -16,7 +16,7 @@ One has to focus on the following three areas to make the webpage mobile-ready.
 
 ## How to Run
 
-Click on the link :
+Click on the link : https://gowrieswaran.github.io/restaurant-review/
 
 ### How to Run locally
 
